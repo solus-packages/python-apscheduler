@@ -1,0 +1,24 @@
+name       : python-apscheduler
+version    : 3.6.0
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/source/A/APScheduler/APScheduler-3.6.0.tar.gz : 8f56b888fdc9dc57dd18d79c124b5093a01e29144be84e3e99130600eea34260
+license    : MIT
+component  : programming.python
+summary    : Advanced Python Scheduler
+description: |
+    Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python code to be executed later, either just once or periodically.
+builddeps  :
+    - python-pytest-cov
+    - python-setuptools-scm
+    - python-tornado
+    - python-tzlocal
+rundeps    :
+    - python-six
+    - python-tzlocal
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test py.test3 -v -k 'not test_executors_py35'
