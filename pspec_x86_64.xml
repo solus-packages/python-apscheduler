@@ -2,8 +2,8 @@
     <Source>
         <Name>python-apscheduler</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.python</PartOf>
@@ -19,98 +19,98 @@
 </Description>
         <PartOf>programming.python</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/PKG-INFO</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/SOURCES.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/dependency_links.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/entry_points.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/not-zip-safe</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/requires.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/APScheduler-3.6.1-py3.6.egg-info/top_level.txt</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/__pycache__/events.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/__pycache__/job.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/__pycache__/util.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/events.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/asyncio.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/base.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/base_py3.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/debug.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/gevent.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/pool.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/tornado.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/__pycache__/twisted.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/asyncio.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/base.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/base_py3.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/debug.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/gevent.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/pool.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/tornado.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/executors/twisted.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/job.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/base.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/memory.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/mongodb.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/redis.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/rethinkdb.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/sqlalchemy.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/__pycache__/zookeeper.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/base.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/memory.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/mongodb.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/redis.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/rethinkdb.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/sqlalchemy.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/jobstores/zookeeper.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/asyncio.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/background.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/base.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/blocking.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/gevent.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/qt.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/tornado.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/__pycache__/twisted.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/asyncio.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/background.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/base.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/blocking.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/gevent.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/qt.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/tornado.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/schedulers/twisted.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__pycache__/base.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__pycache__/combining.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__pycache__/date.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/__pycache__/interval.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/base.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/combining.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/__init__.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/__pycache__/__init__.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/__pycache__/expressions.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/__pycache__/fields.cpython-36.pyc</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/expressions.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/cron/fields.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/date.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/triggers/interval.py</Path>
-            <Path fileType="library">/usr/lib/python3.6/site-packages/apscheduler/util.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/APScheduler-3.6.1-py3.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/__pycache__/events.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/__pycache__/job.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/__pycache__/util.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/events.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/asyncio.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/base.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/base_py3.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/debug.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/gevent.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/pool.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/tornado.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/__pycache__/twisted.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/asyncio.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/base.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/base_py3.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/debug.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/gevent.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/pool.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/tornado.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/executors/twisted.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/job.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/base.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/memory.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/mongodb.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/redis.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/rethinkdb.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/sqlalchemy.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/__pycache__/zookeeper.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/base.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/memory.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/mongodb.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/redis.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/rethinkdb.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/sqlalchemy.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/jobstores/zookeeper.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/asyncio.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/background.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/base.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/blocking.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/gevent.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/qt.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/tornado.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/__pycache__/twisted.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/asyncio.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/background.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/base.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/blocking.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/gevent.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/qt.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/tornado.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/schedulers/twisted.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__pycache__/base.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__pycache__/combining.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__pycache__/date.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/__pycache__/interval.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/base.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/combining.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/__pycache__/__init__.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/__pycache__/expressions.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/__pycache__/fields.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/expressions.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/cron/fields.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/date.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/triggers/interval.py</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/apscheduler/util.py</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2019-08-13</Date>
+        <Update release="3">
+            <Date>2020-01-25</Date>
             <Version>3.6.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
