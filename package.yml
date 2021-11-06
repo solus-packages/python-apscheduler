@@ -1,8 +1,8 @@
 name       : python-apscheduler
-version    : 3.6.1
-release    : 4
+version    : 3.8.1
+release    : 5
 source     :
-    - https://files.pythonhosted.org/packages/source/A/APScheduler/APScheduler-3.6.1.tar.gz : 529afb7909e08416132891188cbfea5351eb35e4a684b67e983d819e8d01a6b0
+    - https://files.pythonhosted.org/packages/source/A/APScheduler/APScheduler-3.8.1.tar.gz : 5cf344ebcfbdaa48ae178c029c055cec7bc7a4a47c21e315e4d1f08bd35f2355
 license    : MIT
 component  : programming.python
 summary    : Advanced Python Scheduler
